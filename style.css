@@ -10,6 +10,31 @@ body {
 
 }
 
+.banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    background: linear-gradient(to right, rgb(41, 107, 41), #a2c776);
+    color: white;
+    font-size: 3em;
+    font-family: 'Brush Script MT', cursive;
+    overflow: hidden;
+    transform: translate(0%, 70%);
+    
+    
+
+}
+
+.banner img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.3;
+    height: 200%;
+    object-fit: cover;
+}
 .navbar {
     background-color: white;
 
