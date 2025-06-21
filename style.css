@@ -11,6 +11,7 @@ body {
 }
 
 .banner{
+    
     position: relative;
     display: flex;
     align-items: center;
@@ -23,24 +24,24 @@ body {
     overflow: hidden;
     transform: translate(0%, 70%);
     
-    
-
 }
 
 .banner img {
     position: absolute;
-    right: 0;
-    top: 0;
+    top: 75;
     opacity: 0.3;
-    height: 200%;
+    height: 178%;
     object-fit: cover;
+    scale: 200%;
 }
+
+
 .navbar {
     background-color: white;
 
 }
 
-ul {
+.list {
 
     list-style-type: none;
     margin: 0;
@@ -48,6 +49,7 @@ ul {
     background-color: rgb(0, 0, 0);
 
 }
+
 
 li {
     display: inline;
