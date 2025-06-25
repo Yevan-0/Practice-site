@@ -17,6 +17,16 @@ body {
 
 
 
+.body-left{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 20px;
+ 
+
+}
+
+
 
 .top {
     display: flex;
@@ -137,7 +147,7 @@ body {
     
  display: flex;
  flex-direction: column;
- justify-content: space-between;
+ 
  gap: 20px;
     
 }
@@ -152,7 +162,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     height: 8vh;
-    width: 15vw;
+    width: 30vw;
     gap: 20px;
 
 
