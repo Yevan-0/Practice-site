@@ -17,12 +17,13 @@ body {
 
 
 
+
 .body-left{
  display: flex;
  flex-direction: column;
  justify-content: space-between;
+ flex:1;
  gap: 20px;
- 
 
 }
 
@@ -45,9 +46,9 @@ body {
     gap: 20px;
     padding: 10px;
     border-radius: 10px;
-    height: 30vh;
-    width: 5vw;
-    flex-wrap: wrap;
+    height: 260px;
+    
+    
     
 }
 
@@ -75,9 +76,9 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    border-radius: 10px;
-    height: 8vh;
-    width: 15vw;
+    border-radius: 20px;
+    height: 100px;
+    
     gap: 20px;
 
 
@@ -104,7 +105,7 @@ body {
  flex-direction: column;
  justify-content: space-between;
  gap: 20px;
- 
+ flex: 1;
  
 
 }
@@ -118,9 +119,8 @@ body {
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
-    height: 30vh;
-    width: 20vw;
-    gap: 20px;
+    height: 350px;
+
 
 }
 
@@ -147,7 +147,7 @@ body {
     
  display: flex;
  flex-direction: column;
- 
+ flex: 1;
  gap: 20px;
     
 }
@@ -159,11 +159,9 @@ body {
 
     display: flex;
     flex-direction: column;
-    padding: 10px;
     border-radius: 10px;
-    height: 8vh;
-    width: 30vw;
-    gap: 20px;
+    height: 235;
+    box-sizing: border-box;
 
 
 }
