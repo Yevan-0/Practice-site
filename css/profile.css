@@ -1,0 +1,77 @@
+body {
+
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../Assets/R.jpeg);
+  background-size: cover;
+}
+
+.profile-box {
+  background-color: white;
+  border-radius: 15px;
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.top-bg {
+  position: relative;
+  height: 120px;
+  background: url('path-to-pattern.svg') no-repeat center/cover;
+}
+
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+}
+
+.profile-info {
+  margin-top: 60px;
+}
+
+.profile-info h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.profile-info span {
+  color: gray;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.profile-info p {
+  color: gray;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.profile-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.stat h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.stat p {
+  font-size: 12px;
+  color: gray;
+  margin-top: 4px;
+}
