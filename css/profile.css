@@ -22,7 +22,9 @@ body {
 .top-bg {
   position: relative;
   height: 120px;
-  background: url('path-to-pattern.svg') no-repeat center/cover;
+  background: url('../Assets/R (1).jpeg') no-repeat center;
+  display: flex;
+  
 }
 
 .profile-pic {
